@@ -8,7 +8,7 @@ The ultimate cryptdevice adventure you can play with Python3, QubesAdmin, IPC an
 - sda1 sdb1 is VM1, sda2 sdb2 is VM2, etc?
 - why would the dom0 qproc / admin.Function._respond_ to AppVM rather than AppVM requesting permission on a /dev device, mountpoint
 
-     qvm-block attach <isolated vm> dom0:<disk> in dom0.
+     qvm-block attach isolated_vm dom0:disk in dom0.
   
 - dom0 has accesss to disks, <isolated vm> does not. 
 - the spec of the mechanism and tool expects fast reversability and reinfliction of encryption, rendering a locked / unlocked state
